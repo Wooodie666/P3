@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=git1.0">
+    <title>Ohmyfood</title>
+    <link rel="icon" type="image/jpg" href="logo/ohmyfood@2x.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header-container-->
+     
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img id="logo" src="./logo/ohmyfood.png" alt="logo Ohmyfood">
+            </div> 
+        </div>
+    </header>
+    <!--picture-container-->
+    <nav>
+        <div class="picture-container">
+            <a href="#"><img src="img/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="le-delice-des-sens" /></a>
+        </div>
+    </nav>
+
+    <!--start-->  
+    <main>
+        <section class="menu-container">
+                <h1>Le délice des sens</h1>
+                <i class="fas fa-heart"></i>
+            <div class="start-menu-4">
+                <h2>Entrées</h2>
+                <article>
+                    <h3>Tartare de thon</h3>
+                    <p>Assaisonné au yuzu</p>
+                    <strong>25€</strong>
+                </article>
+
+                <article>
+                    <h3>Bouchée de homard crousillant</h3>
+                    <p>Et sa farandole de petits légumes</p>
+                    <strong>35€</strong>
+                </article>
+
+                <article>
+                    <h3>Velouté de cèpes</h3>
+                    <p>Aux truffes</p>
+                    <strong>20€</strong>
+                </article>
+            </div>
+            <!--plats-->
+            <div class="plat-menu-4">
+                 <h2>Plats</h2>
+                 <article>
+                     <h3>Poulet rôti aux herbes de Provences</h3>
+                     <p>Et sa crème de truffe</p>
+                     <strong>40€</strong>
+                 </article>
+
+                 <article>
+                    <h3>Langouste rôtie</h3>
+                    <p>Et ses légumes de saison</p>
+                    <strong>35€</strong>
+                 </article>
+
+                 <article>
+                     <h3>Côte de boeuf Angus</h3>
+                     <p>Et sa purée de panais</p>
+                     <strong>44€</strong>
+                 </article>
+            </div>
+            <!--dessert-->
+            <div class="dessert-menu-4">
+                <h2>Desserts</h2>
+                <article>
+                    <h3>Farabdole de desserts</h3>
+                    <p>Du chef</p>
+                    <strong>18€</strong>
+                </article>
+
+                <article>
+                    <h3>Crème brulée</h3>
+                    <p>Revisitée</p>
+                    <strong>22€</strong>
+                </article>
+
+                <article>
+                    <h3>Tiramisu</h3>
+                    <p>A la noisette</p>
+                    <strong>23€</strong>
+                </article>
+            </div>
+            <button class="search-button">Commander</button>
+        </section>
+    </main>
+
+  <!--footer-->
+
+    <footer>
+        <div class="footer-container">
+            <p>ohmyfood</p>
+            <ul>
+                <li>
+                    <i class="fas fa-utensils"></i>
+                    <a class="footer-column" href="#">Proposer un restaurant</a>
+                </li>
+                <li>
+                    <i class="fas fa-hands-helping"></i>
+                    <a class="footer-column" href="#">Devenir partenaire</a>
+                </li>
+                <li>
+                    <a class="footer-column" href="#">Mentions légales</a>
+                </li>
+                <li>
+                    <a class="footer-column" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+           
